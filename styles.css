@@ -68,3 +68,26 @@
     margin: 5px 0;
     color: #fff;
   }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .weather-card {
+    padding: 15px;
+  }
+
+  .weather-card h1 {
+    font-size: 24px;
+  }
+
+  .weather-card h3 {
+    font-size: 20px;
+  }
+
+  .weather-card h5 {
+    font-size: 18px;
+  }
+}
