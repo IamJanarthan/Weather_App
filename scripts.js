@@ -26,7 +26,7 @@ const apiKey = '3fba80a478ec5f90abd57c6522d3cfab';
       const icon = `https://openweathermap.org/img/wn/${weather[0].icon}.png`;
       const description = `${weather[0].main}`;
       const humidity = `Humidity: ${main.humidity}%`;
-      const windSpeed = `Wind Speed: ${wind.speed} km/h`;
+      const windSpeed = `Wind Speed: ${wind.speed} M/s`; //Meter per seconds
 
       locationElement.textContent = location;
       temperatureElement.textContent = temperature;
